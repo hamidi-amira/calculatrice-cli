@@ -1,1 +1,2 @@
-#!/bin/shnmvn -B clean verifyn
+#!/bin/sh
+mvn -B clean verify
