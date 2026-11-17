@@ -32,7 +32,7 @@ boolean continuer = true;
             if (choix == 1) {
                 op = new AddOperation();
             } else if (choix == 2) {
-               // op = new SubtractOperation(); 
+                op = new SubtractOperation(); 
             }
             
             if (op != null) {
