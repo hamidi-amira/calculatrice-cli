@@ -8,6 +8,6 @@ public class SubtractOperationTest {
     @Test
     public void testSoustraction() {
         SubtractOperation op = new SubtractOperation();
-    assertEquals(2.0, op.calculate(5.0, 3.0), "5 - 3 doit faire 2");
+    assertEquals(2.0, op.calculer(5.0, 3.0), "5 - 3 doit faire 2");
     }
 }
